@@ -1,0 +1,16 @@
+# Hugging Face Inference API Key (you'll need this to use HuggingFaceEndpoint)
+HUGGINGFACEHUB_API_TOKEN=your_huggingface_api_key_here
+
+# Optional: if using Together.ai models
+TOGETHER_API_KEY=your_together_api_key_here
+
+# Optional: if using Pinecone for vector storage
+PINECONE_API_KEY=your_pinecone_api_key_here
+PINECONE_ENVIRONMENT=your_pinecone_environment_here
+
+# Optional: if using MongoDB for storage
+MONGODB_URI=your_mongodb_connection_string_here
+
+# App Settings (if running a FastAPI or Flask backend)
+PORT=8000
+LOG_LEVEL=debug
